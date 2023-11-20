@@ -1,0 +1,120 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: autor;
+    src: url(fonts/Autography.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: whiskyEscrita p;
+    src: url(fonts/Onion.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Inicial;
+    src: url(fonts/Cream\ Cake.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: whisky;
+    src: url('fonts/CloisterBlack.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+a:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+:root{
+    font-family: Arial, Helvetica,Verdana, sans-serif;
+}
+header{
+    
+    height: 100px;
+    padding: 0%;
+    margin: auto;
+    text-align: center;
+    color: #ff8c01;
+    max-width: 1000px;
+    border-radius: 10px;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#F28705,#F25C05,#A62F03,#592C22 67%);
+}
+main{
+    text-align: center;
+    background-color: rgba(218, 206, 206, 0.901);
+    
+    padding: 10%;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 5px 10px 15px #743a2d79;
+    max-width: 750px;
+    min-width: 320px;
+    text-align: center;
+
+}
+ol{
+    text-align: left;
+}
+p{
+    text-align: justify;
+    width: 100%;
+}
+h1{
+    text-shadow: 1px 1px 2px #4f281f7e;
+}
+h3{
+    text-align: justify ;
+    text-align: center;
+    width: 100%;
+}
+.whiskyh1{
+    font-family: 'whisky', Times, serif;
+    color: #371d17be;
+    font-size: 75px;
+}
+.logo{
+    font-family: 'inicial',Times,serif;
+    font-size: 95px;
+}
+.whiskyFrases{
+    font-family: 'whiskyEscrita p',Times,serif;
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    margin: auto;
+
+}
+.whiskyTitulo{
+    font-family: 'whiskyEscrita p',Times,serif;
+    font-size: 60px;
+}
+.Autor{
+    font-family: 'autor',Times,serif;
+    font-size: 25px;
+}
+img{
+    width: 100%;
+}
+.sumario{
+    background-color: rgb(183, 179, 179);
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px black;
+}
